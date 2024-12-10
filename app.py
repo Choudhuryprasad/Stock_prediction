@@ -20,7 +20,7 @@ end_date = st.date_input("End Date", value=pd.to_datetime("2023-01-01"))
 
 # Load pre-trained model
 model_path = st.text_input("Enter Model Path (e.g., Stock Predictions Model.keras):", 
-                           "C:/Users/khadi/Desktop/stockPrediction/Stock Predictions Model.keras")
+                           "Stock Predictions Model.keras")
 
 # Initialize session state to manage the model and data
 if "model" not in st.session_state:
